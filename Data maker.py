@@ -21,7 +21,7 @@ df = pd.DataFrame({
 })
 
 # Generate 9996 additional columns with related sensor/factory data
-for i in range(1, num_columns - 3):  # -3 because we already added 4 columns above
+for i in range(1, num_columns - 4):  # -3 because we already added 4 columns above
     col_name = f"Sensor_{i}"
     # Example logic: related to experience and age, with noise
     df[col_name] = df['Experience'] * np.random.uniform(0.5, 1.5) + np.random.normal(0, 5, size=num_rows)
