@@ -1,2 +1,2 @@
 # Python-codes
- All of the Python codes that I write.
+ All of the codes I write.
