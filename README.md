@@ -1,21 +1,61 @@
-# 🛠️ Python‑Toolbox
+# Hi, I'm Hammad Ali 👋
 
-A collection of versatile Python utility functions and scripts designed to streamline everyday development tasks—perfect for data cleaning, quick prototyping, and reusable tools in your own projects.
-
----
-
-## 🚀 Key Features
-
-- **Data Manipulation Utilities**: Handy functions for cleaning, transforming, and formatting data frames or lists.
-- **File I/O Helpers**: Easy-to-use methods for reading/writing CSVs, JSON, and common file formats.
-- **CLI & Scripting Tools**: Ready-to-use command-line scripts for automation and quick tasks.
-- **Modular & Reusable**: Designed for plug-and-play integration into any Python project.
+**BS Computer Science Student**  
+_Aspiring Machine Learning Engineer / Data Scientist_
 
 ---
 
-## 🔧 Getting Started
+## 🚀 Quick Bio / Tagline
 
-### 1. Clone the repo
-```bash
-git clone https://github.com/HammadAli08/Python-Toolbox.git
-cd Python-Toolbox
+Learning every day. Building data-driven solutions.  
+Passionate about machine learning and using data to solve real-world problems.
+
+---
+
+## 🛠️ Top Skills & Technologies
+
+- **Languages & Libraries:** Python, Pandas, NumPy, Matplotlib, Seaborn, scikit-learn
+- **Computer Vision:** MediaPipe, OpenCV
+- **Workflow Tools:** Jupyter Notebooks, Git, Linux
+- **Core Competencies:** Data Cleaning, Visualization, Regression & Classification Models, ML Concepts
+
+---
+
+## 🌟 Featured Projects
+
+- [🔍 Loan Approval Analysis Report](#)  
+  _Data-driven insights into loan approval factors with visualizations_
+
+- [🏠 House Price Prediction](#)  
+  _Linear and multiple regression on real estate data_
+
+- [✍️ Virtual Hand Drawing App](#)  
+  _Control your screen with finger gestures using OpenCV + MediaPipe_
+
+- [📈 Classification Models](#)  
+  _Binary and multi-class classifiers with performance comparisons_
+
+---
+
+## 🧠 Currently Exploring
+
+Deep learning and ML Ops
+
+---
+
+## 🤝 Connect with Me
+
+- [📫 LinkedIn](#)
+- [💻 GitHub](https://github.com/HammadAli08)
+
+---
+
+## 🎉 Fun Facts
+
+- 🎳 Fast bowler and cricket enthusiast
+- 📺 Addicted to history documentaries
+- 🤝 Strong believer in teamwork, discipline, and curiosity-driven learning
+
+---
+
+<!-- Badges or additional links can be added here! -->
