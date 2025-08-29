@@ -1,0 +1,95 @@
+Index: Basics of python.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"Inputs of python\"\"\"\n\"\"\"Name=input(\"Enter your name: \")\nage=int(input(\"Enter your age: \"))\ndegree=float(input(\"Enter your degree: \"))\nEquation=eval(input(\"Enter your equation: \"))\nage=float(age)\nprint('The name is:',Name)\nprint(age)\nprint(degree)\nprint(Equation)\"\"\"\n\"\"\"Swaping values\"\"\"\n\"\"\"a=10\nb=20\ntemp=a\na=b\nb=temp\nprint(a)\nprint(b)\"\"\"\n\"\"\"Operators\"\"\"\n\"\"\"a=58\nb=7\nprint(a/b)\nprint(a//b)\nprint(a%b)\nprint(a==b)\nprint(a!=b)\nprint(a>b)\nprint(a<b or a==b)\nprint(not(a>b and a<b))\"\"\"\n\"\"\"Identity Operator: checks weather both variables have same datatype or not\"\"\"\n\"\"\"print(a is b)\nprint(a is not b)\"\"\"\n\"\"\"Bitwise: make answers according to the bit values of those numbers\"\"\"\n\"\"\"print(a & b)\nprint(a | b)\nprint(a ^b)\nprint(a<<1)\nprint(a>>2)\"\"\"\n\"\"\"Condotional statements\"\"\"\n\"\"\"if a!=b:\n    print('a is equal to b')\n    print('a is less than b') if a<b else print('a is greater than b')\n\nif a%2==0:\n    print('a is even')\nelse:\n    print('a is odd')\"\"\"\ne=int(input(\"Enter an Number to get Table: \"))\nfor i in range(1,11):\n    print(e*i)\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Basics of python.py b/Basics of python.py
+--- a/Basics of python.py	(revision ff424f5806014090b2adfb3abc78b4050a2158e6)
++++ b/Basics of python.py	(date 1748278204576)
+@@ -45,6 +45,32 @@
+     print('a is even')
+ else:
+     print('a is odd')"""
+-e=int(input("Enter an Number to get Table: "))
++
++"""e=int(input("Enter an Number to get Table: "))
+ for i in range(1,11):
+-    print(e*i)
++    print(e*i)"""
++while True:
++    n = int(input("Enter an Number to get Table: "))
++    e = int(input("Enter an Number to get Table: "))
++    print(n*e)
++    e+=1
++    n+=1
++    repeat=input("Do you want to stop it: ")
++    if repeat=='yes':
++        break
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
+Index: Billing.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Billing.py b/Billing.py
+new file mode 100644
+--- /dev/null	(date 1748280389487)
++++ b/Billing.py	(date 1748280389487)
+@@ -0,0 +1,16 @@
++while True:
++    Name=input("enter your name:")
++    Total=0
++    while True:
++        quantity=int(input("enter your quantity:"))
++        Price=float(input("enter your price:"))
++        Total=Total+Price*quantity
++        repeat=input("Want to Continue?(Y/N):")
++        if repeat=="No":
++            break
++    print('Name: ',Name)
++    print('Price: ',Price)
++    print('Total: ',Total)
++    repeat=input("Want to Continue?(Y/N):")
++    if repeat=="No":
++        break
+\ No newline at end of file
+Index: Fabonacci.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Fabonacci.py b/Fabonacci.py
+new file mode 100644
+--- /dev/null	(date 1748454127638)
++++ b/Fabonacci.py	(date 1748454127638)
+@@ -0,0 +1,12 @@
++a = 0
++b = 1
++n=int(input("How many Fabonacci series number you want: "))
++if n==1:
++    print(1)
++else:
++    print(a)
++    for i in range(2,n):
++        c=a+b
++        a=b
++        b=c
++        print(c)
+\ No newline at end of file
